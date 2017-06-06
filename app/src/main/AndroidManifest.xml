@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/tourist"
-        android:label="@string/app_name"
+        android:label="TGTLV2"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
 
         <activity android:name=".Sightseeing"
             android:label="sightseeing"
@@ -37,6 +39,15 @@
 
         <activity android:name=".Hotels"
             android:label="hotels"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity android:name=".Nightlife"
+            android:label="nightlife"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data

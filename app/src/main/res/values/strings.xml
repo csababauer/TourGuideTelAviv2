@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TourGuideTelAviv2</string>
+
+    <string name="title">Explore Tel Aviv</string>
+    <string name="button1">sightseeing</string>
+    <string name="button2">restaurants</string>
+    <string name="button3">hotels</string>
+    <string name="button4">nightlife</string>
+
 </resources>

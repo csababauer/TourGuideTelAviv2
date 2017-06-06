@@ -42,5 +42,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(hotelIntent);
             }
         });
+
+        TextView button4 = (TextView) findViewById(R.id.nightlife);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent hotelIntent = new Intent(MainActivity.this, Nightlife.class);
+                // Start the new activity
+                startActivity(hotelIntent);
+            }
+        });
     }
 }

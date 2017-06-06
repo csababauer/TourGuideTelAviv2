@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -27,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lines="1"
-            android:text="Tel Aviv Beach"
+            tools:text="tlv_beach"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -38,7 +39,7 @@
             android:ellipsize="end"
             android:lines="3"
             android:scrollHorizontally="true"
-            android:text="The city boasts 14 kilometers of some of the best beaches in the world with clean wide stretches of sand and stunning views of the sea, white sails and surfers. "
+            tools:text="description description description"
             android:textSize="12sp" />
 
 
@@ -49,7 +50,7 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:gravity="right"
+        android:gravity="end"
         android:orientation="vertical">
 
         <ImageView
